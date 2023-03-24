@@ -3,7 +3,7 @@
 /**
  * main - main function
  *@argc: Prints factors
- *argv: Prints Values of arrays num,bers
+ *@argv: Print charactor of array  values
  *
  * Return: void
  */

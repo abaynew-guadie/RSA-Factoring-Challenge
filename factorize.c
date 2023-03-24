@@ -4,8 +4,8 @@
  * factorize - The function factorize a number
  * @buffer: pointer to the address of the number
  *
- * Author: Thaoban Abdrasheed
- * Return: int
+ * Author:
+ *  Return: int
  */
 int factorize(char *buffer)
 {
@@ -20,7 +20,7 @@ for (i = 2; i < num; i++)
 {
 if (num % i == 0)
 {
-printf("%d=%d*%d\n",num,num/i,i);
+printf("%d=%d*%d\n", num, num / i, i);
 break;
 }
 }
