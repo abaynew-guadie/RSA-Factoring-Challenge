@@ -19,7 +19,6 @@ done
 else
 num2=$3
 fi
-
 num1=$2
 num=$(echo "$1" | tr ':' '=')
 
@@ -43,6 +42,5 @@ do
 
 result=$(factor "$i")
 check_factor $result
-
 done < "$1"
 fi
