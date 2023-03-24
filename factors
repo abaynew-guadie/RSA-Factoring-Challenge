@@ -41,6 +41,7 @@ while read i
 do
 
 result=$(factor "$i")
+
 check_factor $result
 done < "$1"
 fi
